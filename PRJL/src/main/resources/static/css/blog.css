@@ -1,0 +1,434 @@
+*{
+    font-family: 'Mukta', sans-serif;
+}
+.header{
+    width:1500px;
+    height: 1000px;
+    box-sizing: border-box;
+    float: left;
+}
+.header .background{
+    float: left;
+    width: 100%;
+    height: 86%;
+}
+
+/* Menuu*/
+.menu{
+    width: 100%;
+    height: 95px;
+    box-sizing: border-box ;
+    float: left;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color:#09050d ;
+}
+.menu img{
+    float: left;
+    width: 4%;
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.menu h1{
+    float: left;
+    color: white;
+}
+.menu ul{
+    float: right;
+    margin-right:100px;
+
+}
+.menu ul li{
+    float: left;
+    font-size: 16px;
+    list-style: none;
+    width: 95px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+
+}
+.menu ul li:hover{
+    color: #ff1313;
+    transition: 0.4S;
+
+}
+
+.menu button{
+    float: right;
+    background-color: #ff1313;
+    border: none;
+    width: 200px;
+    height: 65px;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.menu button a{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.menu button:hover{
+    background-color:#c20505;
+    transition: 0.3s;
+}
+
+
+.header .banner{
+    color: white;
+    float: left;
+    margin-top: 190px;
+    margin-left: 705px;
+    font-size: 50px;
+}
+
+
+
+/*container*/
+.container{
+    width: 100%;
+    height:3200px;
+    margin-top: 70px;
+    float: left;
+    box-sizing: border-box;
+}
+/* row1 */
+.container .row1{
+    width: 60%;
+    height: 95%;
+    float: left;
+}
+.container .row1 .box{
+    width: 100%;
+    height: 700px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.container .row1 .box img{
+    width: 85%;
+    float: left;
+}
+.container .row1 .box .date{
+    width: 95px;
+    background-color: rgba(255, 19, 19, 0.91);
+    height: 95px;
+    text-align: center;
+    float: left;
+    line-height: 3;
+    font-size: 30px;
+    position: absolute;
+    color: wheat;
+    margin-top: 374px;
+    margin-left: 25px;
+    z-index: 90;
+    border-radius: 10px;
+}
+.container .row1 .box h1{
+    float: left;
+    font-size: 25px;
+    margin-top: 90px;
+    line-height: 0;
+    margin-left: 25px;
+}
+.container .row1 .box .decription{
+    float: left;
+    margin-left: 25px;
+    line-height: 2;
+    width: 82%;
+}
+.container .row1 .box .author{
+    width: 100%;
+    height: auto;
+    float: left;
+
+}
+.container .row1 .box .author i{
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.container .row1 .box .author P{
+    float: left;
+    line-height: 1;
+}
+.container .row1 .box .author .wall{
+    margin-left: 25px;
+}
+
+/*row2*/
+.container .row2{
+    width: 35%;
+    float: left;
+    height: 95%;
+}
+.container .row2 .box{
+    float: left;
+    width: 85%;
+    margin-left: 50px;
+    height: 170px;
+    margin-top: 50px;
+    background-color: #f7fbff;
+}
+.container .row2 .box input{
+    width: 70%;
+    font-size: 16px;
+    height: 45px;
+    float: left;
+    margin-left: 34px;
+    margin-top: 28px;
+}
+.container .row2 .box .fa-search{
+    width: 13%;
+    border: none;
+    height: 51px;
+    float: left;
+    background-color: #ff1313;
+    color: white;
+    font-size: 16px;
+    margin-top: 28px;
+}
+.container .row2 .box .search{
+    width: 85%;
+    height: 45px;
+    float: left;
+    background-color: white;
+    border: 1px solid #ff1313;
+    color: #ff1313;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 33px;
+}
+
+.container .row2 .box1{
+    float: left;
+    width: 85%;
+    margin-left: 50px;
+    height: 550px;
+    margin-top: 50px;
+    background-color: #f7fbff;
+}
+.container .row2 .box1 h2{
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    float: left;
+}
+.container .row2 .box1 li{
+    float: left;
+    width: 90%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.71);
+    list-style: none;
+    line-height: 5;
+    height: 69px;
+}
+
+.container .row2 .box2{
+    float: left;
+    width: 85%;
+    margin-left: 50px;
+    height: 550px;
+    margin-top: 50px;
+    background-color: #f7fbff;
+}
+.container .row2 .box2 h2{
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    float: left;
+    margin-left: 40px;
+}
+.container .row2 .box2 .mbox{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+}
+.container .row2 .box2 img{
+    width: 16%;
+    height: 10%;
+    margin-left: 40px;
+    float: left;
+}
+.container .row2 .box2 strong{
+    float: left;
+    margin-left: 25px;
+    width: 60%;
+    line-height: 0;
+    margin-top: 20px;;
+}
+.container .row2 .box2 p{
+    float: left;
+    margin-left: 25px;
+    width: 60%;
+}
+
+.container .row2 .box3{
+    float: left;
+    width: 85%;
+    margin-left: 50px;
+    height: 310px;
+    margin-top: 50px;
+    background-color: #f7fbff;
+}
+.container .row2 .box3 h2{
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    float: left;
+    margin-left: 40px;
+}
+.container .row2 .box3 .mbox{
+    width: 80%;
+    float: left;
+    height: auto;
+    margin-left: 40px;
+}
+.container .row2 .box3 button{
+    float: left;
+    width: 110px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: gray;
+    background-color: white;
+    margin-left: 15px;
+    border: 1px solid #f7fbff;
+}
+
+.container .row2 .box4{
+    float: left;
+    width: 85%;
+    margin-left: 50px;
+    height: 390px;
+    margin-top: 50px;
+    background-color: #f7fbff;
+}
+
+.container .row2 .box4 h2{
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    float: left;
+    margin-left: 40px;
+}
+.container .row2 .box4 .mbox{
+    width: 80%;
+    float: left;
+    height: auto;
+    margin-left: 40px;
+}
+.container .row2 .box4 img{
+    width: 28%;
+    height: 10%;
+    margin-top: 15px;
+    margin-right: 10px;
+    float: left;
+}
+
+.container .row2 .box5{
+    float: left;
+    width: 85%;
+    margin-left: 50px;
+    height: 305px;
+    margin-top: 50px;
+    background-color: #f7fbff;
+}
+.container .row2 .box5 h2{
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    float: left;
+    margin-left: 40px;
+}
+
+.container .row2 .box5 input{
+    width: 83%;
+    font-size: 16px;
+    height: 45px;
+    float: left;
+    margin-left: 34px;
+    margin-top: 28px;
+}
+.container .row2 .box5 button{
+    width: 85%;
+    height: 45px;
+    float: left;
+    background-color: white;
+    border: 1px solid #ff1313;
+    color: #ff1313;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 33px;
+}
+.container .buttonpage{
+    width: 100%;
+    float: left;
+    margin-left: 600px;
+}
+.container .buttonpage button{
+    width: 50px;
+    height: 40px;
+    font-size: 16px;
+    background-color: white;
+    color: rgba(128, 128, 128, 0.89);
+    border: 1px solid rgba(128, 128, 128, 0.42);
+}
+
+/*Footer*/
+
+.footer{
+    width:  auto;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: #09050d;
+    float: left;
+}
+.footer .footetdetail{
+    width: 20%;
+    height: 85%;
+    float: left;
+    margin-left: 62px;
+    margin-top: 35px;
+}
+.footetdetail ul li{
+    font-size: 16px;
+    list-style: none;
+    line-height: 35px;
+    color: white;
+}
+.footetdetail ul li:hover{
+    color: #ff1313;
+    transition: 0.4S;
+
+}
+.footetdetail ul{
+    color: white;
+}
+.footetdetail img{
+    float: left;
+    width: 17%;
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 10px;
+
+}
+.footetdetail i {
+    color: white;
+    float: left;
+    margin-left: 42px;
+}
+.footetdetail i:hover {
+    color: #ff1313;
+    transition: 0.4S;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    z-index: 10;
+}

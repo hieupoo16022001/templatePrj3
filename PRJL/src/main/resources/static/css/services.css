@@ -1,0 +1,243 @@
+*{
+    font-family: 'Mukta', sans-serif;
+}
+.header{
+    width:1500px;
+    height: 1000px;
+    box-sizing: border-box;
+    float: left;
+}
+.header .background{
+    float: left;
+    width: 100%;
+    height: 86%;
+}
+
+/* Menuu*/
+.menu{
+    width: 100%;
+    height: 95px;
+    box-sizing: border-box ;
+    float: left;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color:#09050d ;
+}
+.menu img{
+    float: left;
+    width: 4%;
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.menu h1{
+    float: left;
+    color: white;
+}
+.menu ul{
+    float: right;
+    margin-right:100px;
+
+}
+.menu ul li{
+    float: left;
+    font-size: 16px;
+    list-style: none;
+    width: 95px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+
+}
+.menu ul li:hover{
+    color: #ff1313;
+    transition: 0.4S;
+
+}
+
+.menu button{
+    float: right;
+    background-color: #ff1313;
+    border: none;
+    width: 200px;
+    height: 65px;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.menu button a{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.menu button:hover{
+    background-color:#c20505;
+    transition: 0.3s;
+}
+
+
+.header .banner{
+    color: white;
+    float: left;
+    margin-top: 190px;
+    margin-left: 570px;
+    font-size: 50px;
+}
+.container3{
+    width: 100%;
+    height: 1500px;
+    float: left;
+}
+.container3 .box .bt{
+    float: right;
+    background-color: #ff1313;
+    border: none;
+    width: 200px;
+    height: 65px;
+    margin-right: 90px;
+}
+.container3 .bt a{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.container3 .bt:hover{
+    background-color:#c20505;
+    transition: 0.3s;
+}
+
+.container3 .box{
+    margin-left: 93px;
+    width: 93%;
+    height: 20%;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 180px;
+}
+.container3 .box i{
+    color: #ff1313;
+    float: left;
+    margin-right: 20px;
+    font-size: 32px;
+    margin-top: 15px;
+}
+.container3 .box p {
+    float: left;
+    font-size: 18px;
+    color: #ff1313;
+}
+.container3 .box h1{
+    float: left;
+    color: #2c234d;
+    font-size: 36px;
+    line-height: 0;
+    font-weight: 900;
+    width: 100%;
+}
+.container3 .bbox{
+    width: 100%;
+    float: left;
+    height: 26%;
+    margin-top: 90px;
+}
+.container3 .bbox .box1{
+    background-color: #f7fbff;
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin-left: 93px;
+}
+.container3 .bbox .box1 i{
+    width: 100%;
+    color: black;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    font-size: 32px;
+    margin-top: 37px;
+}
+.container3 .bbox .box1 h3{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.container3 .bbox .box1 p{
+    float: left;
+    text-align: center;
+    width: 60%;
+    margin-left: 75px;
+}
+.container3 .bbox .box1 button{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 77px;
+    background: white;
+    border: none;
+    height: 65px;
+    color: white;
+    font-size: 16px;
+}
+.container3 .bbox .box1:hover button{
+    background-color: #ff1313 ;
+    transition: 0.5s;
+}
+
+.container3 .bbox .box1:hover i{
+    color: #ff1313;
+    transition: 0.5s;
+}
+
+/*Footer*/
+
+.footer{
+    width:  auto;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: #09050d;
+    float: left;
+}
+.footer .footetdetail{
+    width: 20%;
+    height: 85%;
+    float: left;
+    margin-left: 62px;
+    margin-top: 35px;
+}
+.footetdetail ul li{
+    font-size: 16px;
+    list-style: none;
+    line-height: 35px;
+    color: white;
+}
+.footetdetail ul li:hover{
+    color: #ff1313;
+    transition: 0.4S;
+
+}
+.footetdetail ul{
+    color: white;
+}
+.footetdetail img{
+    float: left;
+    width: 17%;
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 10px;
+
+}
+.footetdetail i {
+    color: white;
+    float: left;
+    margin-left: 42px;
+}
+.footetdetail i:hover {
+    color: #ff1313;
+    transition: 0.4S;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    z-index: 10;
+}

@@ -1,0 +1,384 @@
+*{
+    font-family: 'Mukta', sans-serif;
+}
+.header{
+    width:1500px;
+    height: 1000px;
+    box-sizing: border-box;
+    float: left;
+}
+.header .background{
+    float: left;
+    width: 100%;
+    height: 86%;
+}
+
+/* Menuu*/
+.menu{
+    width: 100%;
+    height: 95px;
+    box-sizing: border-box ;
+    float: left;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color:#09050d ;
+}
+.menu img{
+    float: left;
+    width: 4%;
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.menu h1{
+    float: left;
+    color: white;
+}
+.menu ul{
+    float: right;
+    margin-right:100px;
+
+}
+.menu ul li{
+    float: left;
+    font-size: 16px;
+    list-style: none;
+    width: 95px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+
+}
+.menu ul li:hover{
+    color: #ff1313;
+    transition: 0.4S;
+
+}
+
+.menu button{
+    float: right;
+    background-color: #ff1313;
+    border: none;
+    width: 200px;
+    height: 65px;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.menu button a{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.menu button:hover{
+    background-color:#c20505;
+    transition: 0.3s;
+}
+
+
+.header .banner{
+    color: white;
+    float: left;
+    margin-top: 190px;
+    margin-left: 635px;
+    font-size: 50px;
+}
+
+
+/*container2*/
+.container2{
+    width: 100%;
+    height: 900px;
+    float: left;
+    box-sizing: border-box;
+}
+.container2 .box{
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin-left: 100px;
+}
+.container2 .box1{
+    width: 34%;
+    margin-top: 111px;
+    height: 85%;
+    float: left;
+}
+.box1 i{
+    color: #ff1313;
+    float: left;
+    margin-right: 20px;
+    font-size: 32px;
+    margin-top: 37px;
+}
+.box1 .p1{
+    color: #ff1313;
+    margin-top: 40px;
+    float: left;
+}
+.box1 h1{
+    float: left;
+    margin-top: 37px;
+    -webkit-text-stroke-width: thin;
+    font-size: 43px;
+    line-height: 58px;
+}
+.box1 .p2{
+    float: left;
+}
+.box1 .p3{
+    float: left;
+    color: gray;
+}
+.box1 button{
+    float: left;
+    background-color: #ff1313;
+    border: none;
+    width: 200px;
+    height: 65px;
+    margin-top: 15px;
+}
+.box1 button a{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.box1 button:hover{
+    background-color:#c20505;
+    transition: 0.3s;
+}
+
+
+/*container4*/
+.container4{
+    width: 100%;
+    height: 900px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 150px;
+}
+.container4 .box{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 120px;
+}
+.container4 .box1{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-left: 90px;
+    margin-top: 123px;
+}
+.container4 img{
+    width: 100%;
+}
+.container4 .box1 p{
+    float: left;
+    color: #ff1313;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.container4 .box1 h1{
+    float: left;
+    color: #2c234d;
+}
+.container4 .box1 .pp{
+    float: left;
+    color: #4c4e9a;
+    font-size: 16px;
+}
+.container4 .box1 h3{
+    float: left;
+}
+
+
+/*container5*/
+.container5 {
+    width: 100%;
+    height: 900px;
+    float: left;
+    box-sizing: border-box;
+}
+.container5 .box1{
+    width: 92%;
+    margin-left: 64px;
+    height: 200px;
+    float: left;
+}
+.container5 .box1 i{
+    color: #ff1313;
+    float: left;
+    margin-right: 20px;
+    font-size: 32px;
+    margin-top: 15px;
+}
+.container5 .box1 p{
+    float: left;
+    font-size: 18px;
+    color: #ff1313;
+}
+.container5 .box1 h1{
+    float: left;
+    width: 100%;
+    line-height: 0px;
+}
+.container5 .box1 button{
+    float: right;
+}
+
+.container5 .box2 {
+    width: 100%;
+    height: 90%;
+    float: left;
+    margin-top: 65px;
+}
+.container5 .box2 .mbox{
+    width: 28%;
+    height: 77%;
+    float: left;
+    overflow: hidden;
+    margin-left: 63px;
+}
+.container5 .box2 .mbox .details{
+    width: 100%;
+    height: 25%;
+    float: left;
+    margin-top: 505px;
+}
+.container5 .box2 .mbox:hover .details{
+    margin-top: 468px;
+    background-color: rgba(255, 19, 19, 0.84);
+    transition: 0.5s;
+}
+.container5 .box2 .mbox:hover .fab{
+    display: block;
+}
+.container5 .box2 .mbox .details i{
+    color: #ffffff;
+    float: left;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-left: 45px;
+}
+.container5 .box2 .mbox .details p{
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+}
+.container5 .box2 .mbox .details h2{
+    float: left;
+    color: white;
+    width: 100%;
+    line-height: 0;
+    margin-left: 45px;
+}
+.container5 .box2 .mbox .details .fab{
+    color: #ffffff;
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 8px;
+    line-height: 1;
+}
+.container5 .box2 .mbox .details .fa-facebook-f{
+    margin-left: 45px;
+}
+
+
+/*container6*/
+
+.container6{
+    width: 100%;
+    height: 355px;
+    float: left;
+    margin-top: 120px;
+}
+.container6 h1{
+    font-size: 40px;
+    float: left;
+}
+.container6 h1{
+    font-size: 50px;
+    line-height: 4;
+    color: white;
+    margin-left: 70px;
+    float: left;
+}
+.container6 .bt{
+    float: right;
+    background-color: #ff1313;
+    border: none;
+    width: 200px;
+    height: 65px;
+    margin-top: 174px;
+    margin-right: 65px;
+}
+.container6 .bt a{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.container6 .bt:hover{
+    background-color:#c20505;
+    transition: 0.3s;
+}
+
+
+
+/*Footer*/
+
+.footer{
+    width:  auto;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: #09050d;
+    float: left;
+    margin-top: 150px;
+}
+.footer .footetdetail{
+    width: 20%;
+    height: 85%;
+    float: left;
+    margin-left: 62px;
+    margin-top: 35px;
+}
+.footetdetail ul li{
+    font-size: 16px;
+    list-style: none;
+    line-height: 35px;
+    color: white;
+}
+.footetdetail ul li:hover{
+    color: #ff1313;
+    transition: 0.4S;
+
+}
+.footetdetail ul{
+    color: white;
+}
+.footetdetail img{
+    float: left;
+    width: 17%;
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 10px;
+
+}
+.footetdetail i {
+    color: white;
+    float: left;
+    margin-left: 42px;
+}
+.footetdetail i:hover {
+    color: #ff1313;
+    transition: 0.4S;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    z-index: 10;
+}
